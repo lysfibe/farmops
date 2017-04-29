@@ -1,0 +1,2202 @@
+[
+ {
+   "code": "K02000001",
+   "name": "UNITED KINGDOM",
+   "pop": "65,110,034"
+ },
+ {
+   "code": "K03000001",
+   "name": "GREAT BRITAIN",
+   "pop": "63,258,413"
+ },
+ {
+   "code": "K04000001",
+   "name": "ENGLAND AND WALES",
+   "pop": "57,885,413"
+ },
+ {
+   "code": "E92000001",
+   "name": "ENGLAND",
+   "pop": "54,786,327"
+ },
+ {
+   "code": "E12000001",
+   "name": "NORTH EAST",
+   "pop": "2,624,621"
+ },
+ {
+   "code": "E06000047",
+   "name": "County Durham",
+   "pop": "519,695"
+ },
+ {
+   "code": "E06000005",
+   "name": "Darlington",
+   "pop": "105,389"
+ },
+ {
+   "code": "E06000001",
+   "name": "Hartlepool",
+   "pop": "92,493"
+ },
+ {
+   "code": "E06000002",
+   "name": "Middlesbrough",
+   "pop": "139,509"
+ },
+ {
+   "code": "E06000057",
+   "name": "Northumberland",
+   "pop": "315,263"
+ },
+ {
+   "code": "E06000003",
+   "name": "Redcar and Cleveland",
+   "pop": "135,275"
+ },
+ {
+   "code": "E06000004",
+   "name": "Stockton-on-Tees",
+   "pop": "194,803"
+ },
+ {
+   "code": "E11000007",
+   "name": "Tyne and Wear (Met County)",
+   "pop": "1,122,194"
+ },
+ {
+   "code": "E08000037",
+   "name": "Gateshead",
+   "pop": "200,996"
+ },
+ {
+   "code": "E08000021",
+   "name": "Newcastle upon Tyne",
+   "pop": "292,883"
+ },
+ {
+   "code": "E08000022",
+   "name": "North Tyneside",
+   "pop": "202,494"
+ },
+ {
+   "code": "E08000023",
+   "name": "South Tyneside",
+   "pop": "148,671"
+ },
+ {
+   "code": "E08000024",
+   "name": "Sunderland",
+   "pop": "277,150"
+ },
+ {
+   "code": "E12000002",
+   "name": "NORTH WEST",
+   "pop": "7,173,835"
+ },
+ {
+   "code": "E06000008",
+   "name": "Blackburn with Darwen",
+   "pop": "146,846"
+ },
+ {
+   "code": "E06000009",
+   "name": "Blackpool",
+   "pop": "139,578"
+ },
+ {
+   "code": "E06000049",
+   "name": "Cheshire East",
+   "pop": "375,392"
+ },
+ {
+   "code": "E06000050",
+   "name": "Cheshire West and Chester",
+   "pop": "333,917"
+ },
+ {
+   "code": "E06000006",
+   "name": "Halton",
+   "pop": "126,528"
+ },
+ {
+   "code": "E06000007",
+   "name": "Warrington",
+   "pop": "207,695"
+ },
+ {
+   "code": "E10000006",
+   "name": "Cumbria",
+   "pop": "497,996"
+ },
+ {
+   "code": "E07000026",
+   "name": "Allerdale",
+   "pop": "96,660"
+ },
+ {
+   "code": "E07000027",
+   "name": "Barrow-in-Furness",
+   "pop": "67,515"
+ },
+ {
+   "code": "E07000028",
+   "name": "Carlisle",
+   "pop": "108,155"
+ },
+ {
+   "code": "E07000029",
+   "name": "Copeland",
+   "pop": "69,647"
+ },
+ {
+   "code": "E07000030",
+   "name": "Eden",
+   "pop": "52,565"
+ },
+ {
+   "code": "E07000031",
+   "name": "South Lakeland",
+   "pop": "103,454"
+ },
+ {
+   "code": "E11000001",
+   "name": "Greater Manchester (Met County)",
+   "pop": "2,756,162"
+ },
+ {
+   "code": "E08000001",
+   "name": "Bolton",
+   "pop": "281,619"
+ },
+ {
+   "code": "E08000002",
+   "name": "Bury",
+   "pop": "187,884"
+ },
+ {
+   "code": "E08000003",
+   "name": "Manchester",
+   "pop": "530,292"
+ },
+ {
+   "code": "E08000004",
+   "name": "Oldham",
+   "pop": "230,823"
+ },
+ {
+   "code": "E08000005",
+   "name": "Rochdale",
+   "pop": "214,195"
+ },
+ {
+   "code": "E08000006",
+   "name": "Salford",
+   "pop": "245,614"
+ },
+ {
+   "code": "E08000007",
+   "name": "Stockport",
+   "pop": "288,733"
+ },
+ {
+   "code": "E08000008",
+   "name": "Tameside",
+   "pop": "221,692"
+ },
+ {
+   "code": "E08000009",
+   "name": "Trafford",
+   "pop": "233,288"
+ },
+ {
+   "code": "E08000010",
+   "name": "Wigan",
+   "pop": "322,022"
+ },
+ {
+   "code": "E10000017",
+   "name": "Lancashire",
+   "pop": "1,191,691"
+ },
+ {
+   "code": "E07000117",
+   "name": "Burnley",
+   "pop": "87,371"
+ },
+ {
+   "code": "E07000118",
+   "name": "Chorley",
+   "pop": "112,969"
+ },
+ {
+   "code": "E07000119",
+   "name": "Fylde",
+   "pop": "77,322"
+ },
+ {
+   "code": "E07000120",
+   "name": "Hyndburn",
+   "pop": "80,228"
+ },
+ {
+   "code": "E07000121",
+   "name": "Lancaster",
+   "pop": "142,283"
+ },
+ {
+   "code": "E07000122",
+   "name": "Pendle",
+   "pop": "90,111"
+ },
+ {
+   "code": "E07000123",
+   "name": "Preston",
+   "pop": "141,302"
+ },
+ {
+   "code": "E07000124",
+   "name": "Ribble Valley",
+   "pop": "58,480"
+ },
+ {
+   "code": "E07000125",
+   "name": "Rossendale",
+   "pop": "69,487"
+ },
+ {
+   "code": "E07000126",
+   "name": "South Ribble",
+   "pop": "109,651"
+ },
+ {
+   "code": "E07000127",
+   "name": "West Lancashire",
+   "pop": "112,742"
+ },
+ {
+   "code": "E07000128",
+   "name": "Wyre",
+   "pop": "109,745"
+ },
+ {
+   "code": "E11000002",
+   "name": "Merseyside (Met County)",
+   "pop": "1,398,030"
+ },
+ {
+   "code": "E08000011",
+   "name": "Knowsley",
+   "pop": "147,231"
+ },
+ {
+   "code": "E08000012",
+   "name": "Liverpool",
+   "pop": "478,580"
+ },
+ {
+   "code": "E08000014",
+   "name": "Sefton",
+   "pop": "273,707"
+ },
+ {
+   "code": "E08000013",
+   "name": "St. Helens",
+   "pop": "177,612"
+ },
+ {
+   "code": "E08000015",
+   "name": "Wirral",
+   "pop": "320,900"
+ },
+ {
+   "code": "E12000003",
+   "name": "YORKSHIRE AND THE HUMBER",
+   "pop": "5,390,576"
+ },
+ {
+   "code": "E06000011",
+   "name": "East Riding of Yorkshire",
+   "pop": "336,685"
+ },
+ {
+   "code": "E06000010",
+   "name": "Kingston upon Hull, City of",
+   "pop": "258,995"
+ },
+ {
+   "code": "E06000012",
+   "name": "North East Lincolnshire",
+   "pop": "159,570"
+ },
+ {
+   "code": "E06000013",
+   "name": "North Lincolnshire",
+   "pop": "169,820"
+ },
+ {
+   "code": "E06000014",
+   "name": "York",
+   "pop": "206,856"
+ },
+ {
+   "code": "E10000023",
+   "name": "North Yorkshire",
+   "pop": "602,277"
+ },
+ {
+   "code": "E07000163",
+   "name": "Craven",
+   "pop": "55,801"
+ },
+ {
+   "code": "E07000164",
+   "name": "Hambleton",
+   "pop": "90,035"
+ },
+ {
+   "code": "E07000165",
+   "name": "Harrogate",
+   "pop": "157,016"
+ },
+ {
+   "code": "E07000166",
+   "name": "Richmondshire",
+   "pop": "52,510"
+ },
+ {
+   "code": "E07000167",
+   "name": "Ryedale",
+   "pop": "53,052"
+ },
+ {
+   "code": "E07000168",
+   "name": "Scarborough",
+   "pop": "107,902"
+ },
+ {
+   "code": "E07000169",
+   "name": "Selby",
+   "pop": "85,961"
+ },
+ {
+   "code": "E11000003",
+   "name": "South Yorkshire (Met County)",
+   "pop": "1,374,655"
+ },
+ {
+   "code": "E08000016",
+   "name": "Barnsley",
+   "pop": "239,319"
+ },
+ {
+   "code": "E08000017",
+   "name": "Doncaster",
+   "pop": "304,813"
+ },
+ {
+   "code": "E08000018",
+   "name": "Rotherham",
+   "pop": "260,786"
+ },
+ {
+   "code": "E08000019",
+   "name": "Sheffield",
+   "pop": "569,737"
+ },
+ {
+   "code": "E11000006",
+   "name": "West Yorkshire (Met County)",
+   "pop": "2,281,718"
+ },
+ {
+   "code": "E08000032",
+   "name": "Bradford",
+   "pop": "531,176"
+ },
+ {
+   "code": "E08000033",
+   "name": "Calderdale",
+   "pop": "208,402"
+ },
+ {
+   "code": "E08000034",
+   "name": "Kirklees",
+   "pop": "434,321"
+ },
+ {
+   "code": "E08000035",
+   "name": "Leeds",
+   "pop": "774,060"
+ },
+ {
+   "code": "E08000036",
+   "name": "Wakefield",
+   "pop": "333,759"
+ },
+ {
+   "code": "E12000004",
+   "name": "EAST MIDLANDS",
+   "pop": "4,677,038"
+ },
+ {
+   "code": "E06000015",
+   "name": "Derby",
+   "pop": "254,251"
+ },
+ {
+   "code": "E06000016",
+   "name": "Leicester",
+   "pop": "342,627"
+ },
+ {
+   "code": "E06000018",
+   "name": "Nottingham",
+   "pop": "318,901"
+ },
+ {
+   "code": "E06000017",
+   "name": "Rutland",
+   "pop": "38,046"
+ },
+ {
+   "code": "E10000007",
+   "name": "Derbyshire",
+   "pop": "782,365"
+ },
+ {
+   "code": "E07000032",
+   "name": "Amber Valley",
+   "pop": "124,069"
+ },
+ {
+   "code": "E07000033",
+   "name": "Bolsover",
+   "pop": "77,780"
+ },
+ {
+   "code": "E07000034",
+   "name": "Chesterfield",
+   "pop": "104,407"
+ },
+ {
+   "code": "E07000035",
+   "name": "Derbyshire Dales",
+   "pop": "71,145"
+ },
+ {
+   "code": "E07000036",
+   "name": "Erewash",
+   "pop": "114,510"
+ },
+ {
+   "code": "E07000037",
+   "name": "High Peak",
+   "pop": "91,496"
+ },
+ {
+   "code": "E07000038",
+   "name": "North East Derbyshire",
+   "pop": "99,639"
+ },
+ {
+   "code": "E07000039",
+   "name": "South Derbyshire",
+   "pop": "99,319"
+ },
+ {
+   "code": "E10000018",
+   "name": "Leicestershire",
+   "pop": "675,309"
+ },
+ {
+   "code": "E07000129",
+   "name": "Blaby",
+   "pop": "96,544"
+ },
+ {
+   "code": "E07000130",
+   "name": "Charnwood",
+   "pop": "176,720"
+ },
+ {
+   "code": "E07000131",
+   "name": "Harborough",
+   "pop": "89,284"
+ },
+ {
+   "code": "E07000132",
+   "name": "Hinckley and Bosworth",
+   "pop": "108,769"
+ },
+ {
+   "code": "E07000133",
+   "name": "Melton",
+   "pop": "50,912"
+ },
+ {
+   "code": "E07000134",
+   "name": "North West Leicestershire",
+   "pop": "97,247"
+ },
+ {
+   "code": "E07000135",
+   "name": "Oadby and Wigston",
+   "pop": "55,833"
+ },
+ {
+   "code": "E10000019",
+   "name": "Lincolnshire",
+   "pop": "736,665"
+ },
+ {
+   "code": "E07000136",
+   "name": "Boston",
+   "pop": "66,902"
+ },
+ {
+   "code": "E07000137",
+   "name": "East Lindsey",
+   "pop": "137,887"
+ },
+ {
+   "code": "E07000138",
+   "name": "Lincoln",
+   "pop": "97,065"
+ },
+ {
+   "code": "E07000139",
+   "name": "North Kesteven",
+   "pop": "111,876"
+ },
+ {
+   "code": "E07000140",
+   "name": "South Holland",
+   "pop": "91,214"
+ },
+ {
+   "code": "E07000141",
+   "name": "South Kesteven",
+   "pop": "138,909"
+ },
+ {
+   "code": "E07000142",
+   "name": "West Lindsey",
+   "pop": "92,812"
+ },
+ {
+   "code": "E10000021",
+   "name": "Northamptonshire",
+   "pop": "723,026"
+ },
+ {
+   "code": "E07000150",
+   "name": "Corby",
+   "pop": "66,854"
+ },
+ {
+   "code": "E07000151",
+   "name": "Daventry",
+   "pop": "80,014"
+ },
+ {
+   "code": "E07000152",
+   "name": "East Northamptonshire",
+   "pop": "89,746"
+ },
+ {
+   "code": "E07000153",
+   "name": "Kettering",
+   "pop": "97,650"
+ },
+ {
+   "code": "E07000154",
+   "name": "Northampton",
+   "pop": "222,462"
+ },
+ {
+   "code": "E07000155",
+   "name": "South Northamptonshire",
+   "pop": "89,116"
+ },
+ {
+   "code": "E07000156",
+   "name": "Wellingborough",
+   "pop": "77,184"
+ },
+ {
+   "code": "E10000024",
+   "name": "Nottinghamshire",
+   "pop": "805,848"
+ },
+ {
+   "code": "E07000170",
+   "name": "Ashfield",
+   "pop": "123,574"
+ },
+ {
+   "code": "E07000171",
+   "name": "Bassetlaw",
+   "pop": "114,533"
+ },
+ {
+   "code": "E07000172",
+   "name": "Broxtowe",
+   "pop": "112,253"
+ },
+ {
+   "code": "E07000173",
+   "name": "Gedling",
+   "pop": "115,889"
+ },
+ {
+   "code": "E07000174",
+   "name": "Mansfield",
+   "pop": "106,556"
+ },
+ {
+   "code": "E07000175",
+   "name": "Newark and Sherwood",
+   "pop": "118,569"
+ },
+ {
+   "code": "E07000176",
+   "name": "Rushcliffe",
+   "pop": "114,474"
+ },
+ {
+   "code": "E12000005",
+   "name": "WEST MIDLANDS",
+   "pop": "5,751,000"
+ },
+ {
+   "code": "E06000019",
+   "name": "Herefordshire, County of",
+   "pop": "188,099"
+ },
+ {
+   "code": "E06000051",
+   "name": "Shropshire",
+   "pop": "311,380"
+ },
+ {
+   "code": "E06000021",
+   "name": "Stoke-on-Trent",
+   "pop": "251,648"
+ },
+ {
+   "code": "E06000020",
+   "name": "Telford and Wrekin",
+   "pop": "171,159"
+ },
+ {
+   "code": "E10000028",
+   "name": "Staffordshire",
+   "pop": "862,562"
+ },
+ {
+   "code": "E07000192",
+   "name": "Cannock Chase",
+   "pop": "98,535"
+ },
+ {
+   "code": "E07000193",
+   "name": "East Staffordshire",
+   "pop": "116,040"
+ },
+ {
+   "code": "E07000194",
+   "name": "Lichfield",
+   "pop": "102,706"
+ },
+ {
+   "code": "E07000195",
+   "name": "Newcastle-under-Lyme",
+   "pop": "127,045"
+ },
+ {
+   "code": "E07000196",
+   "name": "South Staffordshire",
+   "pop": "110,726"
+ },
+ {
+   "code": "E07000197",
+   "name": "Stafford",
+   "pop": "132,488"
+ },
+ {
+   "code": "E07000198",
+   "name": "Staffordshire Moorlands",
+   "pop": "97,881"
+ },
+ {
+   "code": "E07000199",
+   "name": "Tamworth",
+   "pop": "77,141"
+ },
+ {
+   "code": "E10000031",
+   "name": "Warwickshire",
+   "pop": "554,002"
+ },
+ {
+   "code": "E07000218",
+   "name": "North Warwickshire",
+   "pop": "62,787"
+ },
+ {
+   "code": "E07000219",
+   "name": "Nuneaton and Bedworth",
+   "pop": "126,319"
+ },
+ {
+   "code": "E07000220",
+   "name": "Rugby",
+   "pop": "103,443"
+ },
+ {
+   "code": "E07000221",
+   "name": "Stratford-on-Avon",
+   "pop": "121,522"
+ },
+ {
+   "code": "E07000222",
+   "name": "Warwick",
+   "pop": "139,931"
+ },
+ {
+   "code": "E11000005",
+   "name": "West Midlands (Met County)",
+   "pop": "2,833,557"
+ },
+ {
+   "code": "E08000025",
+   "name": "Birmingham",
+   "pop": "1,111,307"
+ },
+ {
+   "code": "E08000026",
+   "name": "Coventry",
+   "pop": "345,385"
+ },
+ {
+   "code": "E08000027",
+   "name": "Dudley",
+   "pop": "316,464"
+ },
+ {
+   "code": "E08000028",
+   "name": "Sandwell",
+   "pop": "319,455"
+ },
+ {
+   "code": "E08000029",
+   "name": "Solihull",
+   "pop": "210,445"
+ },
+ {
+   "code": "E08000030",
+   "name": "Walsall",
+   "pop": "276,095"
+ },
+ {
+   "code": "E08000031",
+   "name": "Wolverhampton",
+   "pop": "254,406"
+ },
+ {
+   "code": "E10000034",
+   "name": "Worcestershire",
+   "pop": "578,593"
+ },
+ {
+   "code": "E07000234",
+   "name": "Bromsgrove",
+   "pop": "95,768"
+ },
+ {
+   "code": "E07000235",
+   "name": "Malvern Hills",
+   "pop": "75,731"
+ },
+ {
+   "code": "E07000236",
+   "name": "Redditch",
+   "pop": "84,743"
+ },
+ {
+   "code": "E07000237",
+   "name": "Worcester",
+   "pop": "101,328"
+ },
+ {
+   "code": "E07000238",
+   "name": "Wychavon",
+   "pop": "121,520"
+ },
+ {
+   "code": "E07000239",
+   "name": "Wyre Forest",
+   "pop": "99,503"
+ },
+ {
+   "code": "E12000006",
+   "name": "EAST",
+   "pop": "6,076,451"
+ },
+ {
+   "code": "E06000055",
+   "name": "Bedford",
+   "pop": "166,252"
+ },
+ {
+   "code": "E06000056",
+   "name": "Central Bedfordshire",
+   "pop": "274,022"
+ },
+ {
+   "code": "E06000032",
+   "name": "Luton",
+   "pop": "214,710"
+ },
+ {
+   "code": "E06000031",
+   "name": "Peterborough",
+   "pop": "193,980"
+ },
+ {
+   "code": "E06000033",
+   "name": "Southend-on-Sea",
+   "pop": "178,702"
+ },
+ {
+   "code": "E06000034",
+   "name": "Thurrock",
+   "pop": "165,184"
+ },
+ {
+   "code": "E10000003",
+   "name": "Cambridgeshire",
+   "pop": "647,238"
+ },
+ {
+   "code": "E07000008",
+   "name": "Cambridge",
+   "pop": "130,907"
+ },
+ {
+   "code": "E07000009",
+   "name": "East Cambridgeshire",
+   "pop": "87,306"
+ },
+ {
+   "code": "E07000010",
+   "name": "Fenland",
+   "pop": "99,171"
+ },
+ {
+   "code": "E07000011",
+   "name": "Huntingdonshire",
+   "pop": "174,966"
+ },
+ {
+   "code": "E07000012",
+   "name": "South Cambridgeshire",
+   "pop": "154,888"
+ },
+ {
+   "code": "E10000012",
+   "name": "Essex",
+   "pop": "1,443,151"
+ },
+ {
+   "code": "E07000066",
+   "name": "Basildon",
+   "pop": "181,721"
+ },
+ {
+   "code": "E07000067",
+   "name": "Braintree",
+   "pop": "150,360"
+ },
+ {
+   "code": "E07000068",
+   "name": "Brentwood",
+   "pop": "76,057"
+ },
+ {
+   "code": "E07000069",
+   "name": "Castle Point",
+   "pop": "89,173"
+ },
+ {
+   "code": "E07000070",
+   "name": "Chelmsford",
+   "pop": "172,638"
+ },
+ {
+   "code": "E07000071",
+   "name": "Colchester",
+   "pop": "183,939"
+ },
+ {
+   "code": "E07000072",
+   "name": "Epping Forest",
+   "pop": "129,677"
+ },
+ {
+   "code": "E07000073",
+   "name": "Harlow",
+   "pop": "85,397"
+ },
+ {
+   "code": "E07000074",
+   "name": "Maldon",
+   "pop": "62,743"
+ },
+ {
+   "code": "E07000075",
+   "name": "Rochford",
+   "pop": "85,144"
+ },
+ {
+   "code": "E07000076",
+   "name": "Tendring",
+   "pop": "141,183"
+ },
+ {
+   "code": "E07000077",
+   "name": "Uttlesford",
+   "pop": "85,119"
+ },
+ {
+   "code": "E10000015",
+   "name": "Hertfordshire",
+   "pop": "1,166,339"
+ },
+ {
+   "code": "E07000095",
+   "name": "Broxbourne",
+   "pop": "96,217"
+ },
+ {
+   "code": "E07000096",
+   "name": "Dacorum",
+   "pop": "151,350"
+ },
+ {
+   "code": "E07000242",
+   "name": "East Hertfordshire",
+   "pop": "144,719"
+ },
+ {
+   "code": "E07000098",
+   "name": "Hertsmere",
+   "pop": "102,998"
+ },
+ {
+   "code": "E07000099",
+   "name": "North Hertfordshire",
+   "pop": "131,696"
+ },
+ {
+   "code": "E07000240",
+   "name": "St Albans",
+   "pop": "145,797"
+ },
+ {
+   "code": "E07000243",
+   "name": "Stevenage",
+   "pop": "86,469"
+ },
+ {
+   "code": "E07000102",
+   "name": "Three Rivers",
+   "pop": "91,674"
+ },
+ {
+   "code": "E07000103",
+   "name": "Watford",
+   "pop": "96,403"
+ },
+ {
+   "code": "E07000241",
+   "name": "Welwyn Hatfield",
+   "pop": "119,016"
+ },
+ {
+   "code": "E10000020",
+   "name": "Norfolk",
+   "pop": "884,978"
+ },
+ {
+   "code": "E07000143",
+   "name": "Breckland",
+   "pop": "135,480"
+ },
+ {
+   "code": "E07000144",
+   "name": "Broadland",
+   "pop": "126,628"
+ },
+ {
+   "code": "E07000145",
+   "name": "Great Yarmouth",
+   "pop": "98,667"
+ },
+ {
+   "code": "E07000146",
+   "name": "King's Lynn and West Norfolk",
+   "pop": "151,013"
+ },
+ {
+   "code": "E07000147",
+   "name": "North Norfolk",
+   "pop": "103,308"
+ },
+ {
+   "code": "E07000148",
+   "name": "Norwich",
+   "pop": "138,872"
+ },
+ {
+   "code": "E07000149",
+   "name": "South Norfolk",
+   "pop": "131,010"
+ },
+ {
+   "code": "E10000029",
+   "name": "Suffolk",
+   "pop": "741,895"
+ },
+ {
+   "code": "E07000200",
+   "name": "Babergh",
+   "pop": "89,215"
+ },
+ {
+   "code": "E07000201",
+   "name": "Forest Heath",
+   "pop": "63,691"
+ },
+ {
+   "code": "E07000202",
+   "name": "Ipswich",
+   "pop": "135,600"
+ },
+ {
+   "code": "E07000203",
+   "name": "Mid Suffolk",
+   "pop": "99,632"
+ },
+ {
+   "code": "E07000204",
+   "name": "St Edmundsbury",
+   "pop": "112,523"
+ },
+ {
+   "code": "E07000205",
+   "name": "Suffolk Coastal",
+   "pop": "125,052"
+ },
+ {
+   "code": "E07000206",
+   "name": "Waveney",
+   "pop": "116,182"
+ },
+ {
+   "code": "E12000007",
+   "name": "LONDON",
+   "pop": "8,673,713"
+ },
+ {
+   "code": "E09000007",
+   "name": "Camden",
+   "pop": "241,059"
+ },
+ {
+   "code": "E09000001",
+   "name": "City of London",
+   "pop": "8,760"
+ },
+ {
+   "code": "E09000012",
+   "name": "Hackney",
+   "pop": "269,009"
+ },
+ {
+   "code": "E09000013",
+   "name": "Hammersmith and Fulham",
+   "pop": "179,410"
+ },
+ {
+   "code": "E09000014",
+   "name": "Haringey",
+   "pop": "272,864"
+ },
+ {
+   "code": "E09000019",
+   "name": "Islington",
+   "pop": "227,692"
+ },
+ {
+   "code": "E09000020",
+   "name": "Kensington and Chelsea",
+   "pop": "157,711"
+ },
+ {
+   "code": "E09000022",
+   "name": "Lambeth",
+   "pop": "324,431"
+ },
+ {
+   "code": "E09000023",
+   "name": "Lewisham",
+   "pop": "297,325"
+ },
+ {
+   "code": "E09000025",
+   "name": "Newham",
+   "pop": "332,817"
+ },
+ {
+   "code": "E09000028",
+   "name": "Southwark",
+   "pop": "308,901"
+ },
+ {
+   "code": "E09000030",
+   "name": "Tower Hamlets",
+   "pop": "295,236"
+ },
+ {
+   "code": "E09000032",
+   "name": "Wandsworth",
+   "pop": "314,544"
+ },
+ {
+   "code": "E09000033",
+   "name": "Westminster",
+   "pop": "242,299"
+ },
+ {
+   "code": "E09000002",
+   "name": "Barking and Dagenham",
+   "pop": "201,979"
+ },
+ {
+   "code": "E09000003",
+   "name": "Barnet",
+   "pop": "379,691"
+ },
+ {
+   "code": "E09000004",
+   "name": "Bexley",
+   "pop": "242,142"
+ },
+ {
+   "code": "E09000005",
+   "name": "Brent",
+   "pop": "324,012"
+ },
+ {
+   "code": "E09000006",
+   "name": "Bromley",
+   "pop": "324,857"
+ },
+ {
+   "code": "E09000008",
+   "name": "Croydon",
+   "pop": "379,031"
+ },
+ {
+   "code": "E09000009",
+   "name": "Ealing",
+   "pop": "343,059"
+ },
+ {
+   "code": "E09000010",
+   "name": "Enfield",
+   "pop": "328,433"
+ },
+ {
+   "code": "E09000011",
+   "name": "Greenwich",
+   "pop": "274,803"
+ },
+ {
+   "code": "E09000015",
+   "name": "Harrow",
+   "pop": "247,130"
+ },
+ {
+   "code": "E09000016",
+   "name": "Havering",
+   "pop": "249,085"
+ },
+ {
+   "code": "E09000017",
+   "name": "Hillingdon",
+   "pop": "297,735"
+ },
+ {
+   "code": "E09000018",
+   "name": "Hounslow",
+   "pop": "268,770"
+ },
+ {
+   "code": "E09000021",
+   "name": "Kingston upon Thames",
+   "pop": "173,525"
+ },
+ {
+   "code": "E09000024",
+   "name": "Merton",
+   "pop": "204,565"
+ },
+ {
+   "code": "E09000026",
+   "name": "Redbridge",
+   "pop": "296,793"
+ },
+ {
+   "code": "E09000027",
+   "name": "Richmond upon Thames",
+   "pop": "194,730"
+ },
+ {
+   "code": "E09000029",
+   "name": "Sutton",
+   "pop": "200,145"
+ },
+ {
+   "code": "E09000031",
+   "name": "Waltham Forest",
+   "pop": "271,170"
+ },
+ {
+   "code": "E12000008",
+   "name": "SOUTH EAST",
+   "pop": "8,947,913"
+ },
+ {
+   "code": "E06000036",
+   "name": "Bracknell Forest",
+   "pop": "118,982"
+ },
+ {
+   "code": "E06000043",
+   "name": "Brighton and Hove",
+   "pop": "285,276"
+ },
+ {
+   "code": "E06000046",
+   "name": "Isle of Wight",
+   "pop": "139,395"
+ },
+ {
+   "code": "E06000035",
+   "name": "Medway",
+   "pop": "276,492"
+ },
+ {
+   "code": "E06000042",
+   "name": "Milton Keynes",
+   "pop": "261,762"
+ },
+ {
+   "code": "E06000044",
+   "name": "Portsmouth",
+   "pop": "211,758"
+ },
+ {
+   "code": "E06000038",
+   "name": "Reading",
+   "pop": "161,739"
+ },
+ {
+   "code": "E06000039",
+   "name": "Slough",
+   "pop": "145,734"
+ },
+ {
+   "code": "E06000045",
+   "name": "Southampton",
+   "pop": "249,537"
+ },
+ {
+   "code": "E06000037",
+   "name": "West Berkshire",
+   "pop": "156,020"
+ },
+ {
+   "code": "E06000040",
+   "name": "Windsor and Maidenhead",
+   "pop": "147,708"
+ },
+ {
+   "code": "E06000041",
+   "name": "Wokingham",
+   "pop": "160,409"
+ },
+ {
+   "code": "E10000002",
+   "name": "Buckinghamshire",
+   "pop": "528,400"
+ },
+ {
+   "code": "E07000004",
+   "name": "Aylesbury Vale",
+   "pop": "188,707"
+ },
+ {
+   "code": "E07000005",
+   "name": "Chiltern",
+   "pop": "94,545"
+ },
+ {
+   "code": "E07000006",
+   "name": "South Bucks",
+   "pop": "69,120"
+ },
+ {
+   "code": "E07000007",
+   "name": "Wycombe",
+   "pop": "176,028"
+ },
+ {
+   "code": "E10000011",
+   "name": "East Sussex",
+   "pop": "544,064"
+ },
+ {
+   "code": "E07000061",
+   "name": "Eastbourne",
+   "pop": "102,465"
+ },
+ {
+   "code": "E07000062",
+   "name": "Hastings",
+   "pop": "91,497"
+ },
+ {
+   "code": "E07000063",
+   "name": "Lewes",
+   "pop": "100,693"
+ },
+ {
+   "code": "E07000064",
+   "name": "Rother",
+   "pop": "92,908"
+ },
+ {
+   "code": "E07000065",
+   "name": "Wealden",
+   "pop": "156,501"
+ },
+ {
+   "code": "E10000014",
+   "name": "Hampshire",
+   "pop": "1,353,043"
+ },
+ {
+   "code": "E07000084",
+   "name": "Basingstoke and Deane",
+   "pop": "173,856"
+ },
+ {
+   "code": "E07000085",
+   "name": "East Hampshire",
+   "pop": "118,077"
+ },
+ {
+   "code": "E07000086",
+   "name": "Eastleigh",
+   "pop": "129,027"
+ },
+ {
+   "code": "E07000087",
+   "name": "Fareham",
+   "pop": "114,799"
+ },
+ {
+   "code": "E07000088",
+   "name": "Gosport",
+   "pop": "84,672"
+ },
+ {
+   "code": "E07000089",
+   "name": "Hart",
+   "pop": "93,912"
+ },
+ {
+   "code": "E07000090",
+   "name": "Havant",
+   "pop": "122,927"
+ },
+ {
+   "code": "E07000091",
+   "name": "New Forest",
+   "pop": "179,023"
+ },
+ {
+   "code": "E07000092",
+   "name": "Rushmoor",
+   "pop": "95,342"
+ },
+ {
+   "code": "E07000093",
+   "name": "Test Valley",
+   "pop": "120,712"
+ },
+ {
+   "code": "E07000094",
+   "name": "Winchester",
+   "pop": "120,696"
+ },
+ {
+   "code": "E10000016",
+   "name": "Kent",
+   "pop": "1,524,719"
+ },
+ {
+   "code": "E07000105",
+   "name": "Ashford",
+   "pop": "124,250"
+ },
+ {
+   "code": "E07000106",
+   "name": "Canterbury",
+   "pop": "159,965"
+ },
+ {
+   "code": "E07000107",
+   "name": "Dartford",
+   "pop": "103,892"
+ },
+ {
+   "code": "E07000108",
+   "name": "Dover",
+   "pop": "113,228"
+ },
+ {
+   "code": "E07000109",
+   "name": "Gravesham",
+   "pop": "106,299"
+ },
+ {
+   "code": "E07000110",
+   "name": "Maidstone",
+   "pop": "164,499"
+ },
+ {
+   "code": "E07000111",
+   "name": "Sevenoaks",
+   "pop": "118,409"
+ },
+ {
+   "code": "E07000112",
+   "name": "Shepway",
+   "pop": "110,034"
+ },
+ {
+   "code": "E07000113",
+   "name": "Swale",
+   "pop": "142,417"
+ },
+ {
+   "code": "E07000114",
+   "name": "Thanet",
+   "pop": "139,772"
+ },
+ {
+   "code": "E07000115",
+   "name": "Tonbridge and Malling",
+   "pop": "125,713"
+ },
+ {
+   "code": "E07000116",
+   "name": "Tunbridge Wells",
+   "pop": "116,241"
+ },
+ {
+   "code": "E10000025",
+   "name": "Oxfordshire",
+   "pop": "677,810"
+ },
+ {
+   "code": "E07000177",
+   "name": "Cherwell",
+   "pop": "145,550"
+ },
+ {
+   "code": "E07000178",
+   "name": "Oxford",
+   "pop": "159,574"
+ },
+ {
+   "code": "E07000179",
+   "name": "South Oxfordshire",
+   "pop": "137,412"
+ },
+ {
+   "code": "E07000180",
+   "name": "Vale of White Horse",
+   "pop": "126,663"
+ },
+ {
+   "code": "E07000181",
+   "name": "West Oxfordshire",
+   "pop": "108,611"
+ },
+ {
+   "code": "E10000030",
+   "name": "Surrey",
+   "pop": "1,168,809"
+ },
+ {
+   "code": "E07000207",
+   "name": "Elmbridge",
+   "pop": "132,670"
+ },
+ {
+   "code": "E07000208",
+   "name": "Epsom and Ewell",
+   "pop": "78,950"
+ },
+ {
+   "code": "E07000209",
+   "name": "Guildford",
+   "pop": "146,080"
+ },
+ {
+   "code": "E07000210",
+   "name": "Mole Valley",
+   "pop": "86,104"
+ },
+ {
+   "code": "E07000211",
+   "name": "Reigate and Banstead",
+   "pop": "144,100"
+ },
+ {
+   "code": "E07000212",
+   "name": "Runnymede",
+   "pop": "85,594"
+ },
+ {
+   "code": "E07000213",
+   "name": "Spelthorne",
+   "pop": "98,469"
+ },
+ {
+   "code": "E07000214",
+   "name": "Surrey Heath",
+   "pop": "88,067"
+ },
+ {
+   "code": "E07000215",
+   "name": "Tandridge",
+   "pop": "86,025"
+ },
+ {
+   "code": "E07000216",
+   "name": "Waverley",
+   "pop": "123,315"
+ },
+ {
+   "code": "E07000217",
+   "name": "Woking",
+   "pop": "99,435"
+ },
+ {
+   "code": "E10000032",
+   "name": "West Sussex",
+   "pop": "836,256"
+ },
+ {
+   "code": "E07000223",
+   "name": "Adur",
+   "pop": "63,429"
+ },
+ {
+   "code": "E07000224",
+   "name": "Arun",
+   "pop": "155,732"
+ },
+ {
+   "code": "E07000225",
+   "name": "Chichester",
+   "pop": "116,976"
+ },
+ {
+   "code": "E07000226",
+   "name": "Crawley",
+   "pop": "110,864"
+ },
+ {
+   "code": "E07000227",
+   "name": "Horsham",
+   "pop": "135,868"
+ },
+ {
+   "code": "E07000228",
+   "name": "Mid Sussex",
+   "pop": "145,651"
+ },
+ {
+   "code": "E07000229",
+   "name": "Worthing",
+   "pop": "107,736"
+ },
+ {
+   "code": "E12000009",
+   "name": "SOUTH WEST",
+   "pop": "5,471,180"
+ },
+ {
+   "code": "E06000022",
+   "name": "Bath and North East Somerset",
+   "pop": "184,874"
+ },
+ {
+   "code": "E06000028",
+   "name": "Bournemouth",
+   "pop": "194,516"
+ },
+ {
+   "code": "E06000023",
+   "name": "Bristol, City of",
+   "pop": "449,328"
+ },
+ {
+   "code": "E06000052",
+   "name": "Cornwall",
+   "pop": "549,404"
+ },
+ {
+   "code": "E06000053",
+   "name": "Isles of Scilly",
+   "pop": "2,324"
+ },
+ {
+   "code": "E06000024",
+   "name": "North Somerset",
+   "pop": "209,944"
+ },
+ {
+   "code": "E06000026",
+   "name": "Plymouth",
+   "pop": "262,712"
+ },
+ {
+   "code": "E06000029",
+   "name": "Poole",
+   "pop": "150,577"
+ },
+ {
+   "code": "E06000025",
+   "name": "South Gloucestershire",
+   "pop": "274,661"
+ },
+ {
+   "code": "E06000030",
+   "name": "Swindon",
+   "pop": "217,160"
+ },
+ {
+   "code": "E06000027",
+   "name": "Torbay",
+   "pop": "133,373"
+ },
+ {
+   "code": "E06000054",
+   "name": "Wiltshire",
+   "pop": "486,093"
+ },
+ {
+   "code": "E10000008",
+   "name": "Devon",
+   "pop": "773,077"
+ },
+ {
+   "code": "E07000040",
+   "name": "East Devon",
+   "pop": "138,141"
+ },
+ {
+   "code": "E07000041",
+   "name": "Exeter",
+   "pop": "127,308"
+ },
+ {
+   "code": "E07000042",
+   "name": "Mid Devon",
+   "pop": "79,510"
+ },
+ {
+   "code": "E07000043",
+   "name": "North Devon",
+   "pop": "94,172"
+ },
+ {
+   "code": "E07000044",
+   "name": "South Hams",
+   "pop": "84,470"
+ },
+ {
+   "code": "E07000045",
+   "name": "Teignbridge",
+   "pop": "128,826"
+ },
+ {
+   "code": "E07000046",
+   "name": "Torridge",
+   "pop": "66,265"
+ },
+ {
+   "code": "E07000047",
+   "name": "West Devon",
+   "pop": "54,385"
+ },
+ {
+   "code": "E10000009",
+   "name": "Dorset",
+   "pop": "420,585"
+ },
+ {
+   "code": "E07000048",
+   "name": "Christchurch",
+   "pop": "49,057"
+ },
+ {
+   "code": "E07000049",
+   "name": "East Dorset",
+   "pop": "88,690"
+ },
+ {
+   "code": "E07000050",
+   "name": "North Dorset",
+   "pop": "70,713"
+ },
+ {
+   "code": "E07000051",
+   "name": "Purbeck",
+   "pop": "46,212"
+ },
+ {
+   "code": "E07000052",
+   "name": "West Dorset",
+   "pop": "100,747"
+ },
+ {
+   "code": "E07000053",
+   "name": "Weymouth and Portland",
+   "pop": "65,166"
+ },
+ {
+   "code": "E10000013",
+   "name": "Gloucestershire",
+   "pop": "617,162"
+ },
+ {
+   "code": "E07000078",
+   "name": "Cheltenham",
+   "pop": "116,781"
+ },
+ {
+   "code": "E07000079",
+   "name": "Cotswold",
+   "pop": "85,162"
+ },
+ {
+   "code": "E07000080",
+   "name": "Forest of Dean",
+   "pop": "84,544"
+ },
+ {
+   "code": "E07000081",
+   "name": "Gloucester",
+   "pop": "127,158"
+ },
+ {
+   "code": "E07000082",
+   "name": "Stroud",
+   "pop": "116,627"
+ },
+ {
+   "code": "E07000083",
+   "name": "Tewkesbury",
+   "pop": "86,890"
+ },
+ {
+   "code": "E10000027",
+   "name": "Somerset",
+   "pop": "545,390"
+ },
+ {
+   "code": "E07000187",
+   "name": "Mendip",
+   "pop": "111,724"
+ },
+ {
+   "code": "E07000188",
+   "name": "Sedgemoor",
+   "pop": "120,260"
+ },
+ {
+   "code": "E07000189",
+   "name": "South Somerset",
+   "pop": "164,982"
+ },
+ {
+   "code": "E07000190",
+   "name": "Taunton Deane",
+   "pop": "114,021"
+ },
+ {
+   "code": "E07000191",
+   "name": "West Somerset",
+   "pop": "34,403"
+ },
+ {
+   "code": "W92000004",
+   "name": "WALES",
+   "pop": "3,099,086"
+ },
+ {
+   "code": "W06000001",
+   "name": "Isle of Anglesey",
+   "pop": "69,979"
+ },
+ {
+   "code": "W06000002",
+   "name": "Gwynedd",
+   "pop": "122,864"
+ },
+ {
+   "code": "W06000003",
+   "name": "Conwy",
+   "pop": "116,218"
+ },
+ {
+   "code": "W06000004",
+   "name": "Denbighshire",
+   "pop": "94,691"
+ },
+ {
+   "code": "W06000005",
+   "name": "Flintshire",
+   "pop": "154,074"
+ },
+ {
+   "code": "W06000006",
+   "name": "Wrexham",
+   "pop": "136,647"
+ },
+ {
+   "code": "W06000008",
+   "name": "Ceredigion",
+   "pop": "74,642"
+ },
+ {
+   "code": "W06000009",
+   "name": "Pembrokeshire",
+   "pop": "123,464"
+ },
+ {
+   "code": "W06000010",
+   "name": "Carmarthenshire",
+   "pop": "185,123"
+ },
+ {
+   "code": "W06000011",
+   "name": "Swansea",
+   "pop": "242,382"
+ },
+ {
+   "code": "W06000012",
+   "name": "Neath Port Talbot",
+   "pop": "140,992"
+ },
+ {
+   "code": "W06000013",
+   "name": "Bridgend",
+   "pop": "142,092"
+ },
+ {
+   "code": "W06000014",
+   "name": "Vale of Glamorgan",
+   "pop": "127,592"
+ },
+ {
+   "code": "W06000015",
+   "name": "Cardiff",
+   "pop": "357,160"
+ },
+ {
+   "code": "W06000016",
+   "name": "Rhondda Cynon Taf",
+   "pop": "237,411"
+ },
+ {
+   "code": "W06000018",
+   "name": "Caerphilly",
+   "pop": "180,164"
+ },
+ {
+   "code": "W06000019",
+   "name": "Blaenau Gwent",
+   "pop": "69,544"
+ },
+ {
+   "code": "W06000020",
+   "name": "Torfaen",
+   "pop": "91,836"
+ },
+ {
+   "code": "W06000021",
+   "name": "Monmouthshire",
+   "pop": "92,476"
+ },
+ {
+   "code": "W06000022",
+   "name": "Newport",
+   "pop": "147,769"
+ },
+ {
+   "code": "W06000023",
+   "name": "Powys",
+   "pop": "132,642"
+ },
+ {
+   "code": "W06000024",
+   "name": "Merthyr Tydfil",
+   "pop": "59,324"
+ },
+ {
+   "code": "S92000003",
+   "name": "SCOTLAND",
+   "pop": "5,373,000"
+ },
+ {
+   "code": "S12000033",
+   "name": "Aberdeen City",
+   "pop": "230,350"
+ },
+ {
+   "code": "S12000034",
+   "name": "Aberdeenshire",
+   "pop": "261,960"
+ },
+ {
+   "code": "S12000041",
+   "name": "Angus",
+   "pop": "116,900"
+ },
+ {
+   "code": "S12000035",
+   "name": "Argyll and Bute",
+   "pop": "86,890"
+ },
+ {
+   "code": "S12000036",
+   "name": "City of Edinburgh",
+   "pop": "498,810"
+ },
+ {
+   "code": "S12000005",
+   "name": "Clackmannanshire",
+   "pop": "51,360"
+ },
+ {
+   "code": "S12000006",
+   "name": "Dumfries and Galloway",
+   "pop": "149,670"
+ },
+ {
+   "code": "S12000042",
+   "name": "Dundee City",
+   "pop": "148,210"
+ },
+ {
+   "code": "S12000008",
+   "name": "East Ayrshire",
+   "pop": "122,060"
+ },
+ {
+   "code": "S12000045",
+   "name": "East Dunbartonshire",
+   "pop": "106,960"
+ },
+ {
+   "code": "S12000010",
+   "name": "East Lothian",
+   "pop": "103,050"
+ },
+ {
+   "code": "S12000011",
+   "name": "East Renfrewshire",
+   "pop": "92,940"
+ },
+ {
+   "code": "S12000014",
+   "name": "Falkirk",
+   "pop": "158,460"
+ },
+ {
+   "code": "S12000015",
+   "name": "Fife",
+   "pop": "368,080"
+ },
+ {
+   "code": "S12000046",
+   "name": "Glasgow City",
+   "pop": "606,340"
+ },
+ {
+   "code": "S12000017",
+   "name": "Highland",
+   "pop": "234,110"
+ },
+ {
+   "code": "S12000018",
+   "name": "Inverclyde",
+   "pop": "79,500"
+ },
+ {
+   "code": "S12000019",
+   "name": "Midlothian",
+   "pop": "87,390"
+ },
+ {
+   "code": "S12000020",
+   "name": "Moray",
+   "pop": "95,510"
+ },
+ {
+   "code": "S12000013",
+   "name": "Na h-Eileanan Siar",
+   "pop": "27,070"
+ },
+ {
+   "code": "S12000021",
+   "name": "North Ayrshire",
+   "pop": "136,130"
+ },
+ {
+   "code": "S12000044",
+   "name": "North Lanarkshire",
+   "pop": "338,260"
+ },
+ {
+   "code": "S12000023",
+   "name": "Orkney Islands",
+   "pop": "21,670"
+ },
+ {
+   "code": "S12000024",
+   "name": "Perth and Kinross",
+   "pop": "149,930"
+ },
+ {
+   "code": "S12000038",
+   "name": "Renfrewshire",
+   "pop": "174,560"
+ },
+ {
+   "code": "S12000026",
+   "name": "Scottish Borders",
+   "pop": "114,030"
+ },
+ {
+   "code": "S12000027",
+   "name": "Shetland Islands",
+   "pop": "23,200"
+ },
+ {
+   "code": "S12000028",
+   "name": "South Ayrshire",
+   "pop": "112,400"
+ },
+ {
+   "code": "S12000029",
+   "name": "South Lanarkshire",
+   "pop": "316,230"
+ },
+ {
+   "code": "S12000030",
+   "name": "Stirling",
+   "pop": "92,830"
+ },
+ {
+   "code": "S12000039",
+   "name": "West Dunbartonshire",
+   "pop": "89,590"
+ },
+ {
+   "code": "S12000040",
+   "name": "West Lothian",
+   "pop": "178,550"
+ },
+ {
+   "code": "N92000002",
+   "name": "NORTHERN IRELAND",
+   "pop": "1,851,621"
+ },
+ {
+   "code": "N09000001",
+   "name": "Antrim and Newtownabbey",
+   "pop": "140,467"
+ },
+ {
+   "code": "N09000011",
+   "name": "Ards and North Down",
+   "pop": "158,797"
+ },
+ {
+   "code": "N09000002",
+   "name": "Armagh City, Banbridge and Craigavon",
+   "pop": "207,797"
+ },
+ {
+   "code": "N09000003",
+   "name": "Belfast",
+   "pop": "338,907"
+ },
+ {
+   "code": "N09000004",
+   "name": "Causeway Coast and Glens",
+   "pop": "143,148"
+ },
+ {
+   "code": "N09000005",
+   "name": "Derry City and Strabane",
+   "pop": "149,473"
+ },
+ {
+   "code": "N09000006",
+   "name": "Fermanagh and Omagh",
+   "pop": "115,311"
+ },
+ {
+   "code": "N09000007",
+   "name": "Lisburn and Castlereagh",
+   "pop": "140,205"
+ },
+ {
+   "code": "N09000008",
+   "name": "Mid and East Antrim",
+   "pop": "137,145"
+ },
+ {
+   "code": "N09000009",
+   "name": "Mid Ulster",
+   "pop": "144,002"
+ },
+ {
+   "code": "N09000010",
+   "name": "Newry, Mourne and Down",
+   "pop": "176,369"
+ }
+]
