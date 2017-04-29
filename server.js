@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const Koa = require('koa')
 
 const views = require('koa-views')
