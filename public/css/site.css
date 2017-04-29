@@ -1,21 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,300,300i,400,400i,500,500i,900,900i');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    color: #7FDBFF;
+}
+
+h1, h2, h3, p, span {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 22, 30);
+}
+
 .map, .stats {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*=== Maps =========*/
+
 .map {
-    float: left;
-    width: 60vw;
+    width: 100vw;
     height: 100vh;
 }
+
+.unit {
+    fill: rgba(0, 0, 0, 0.25);
+    stroke: rgb(127, 220, 255);
+}
+.unit:hover {
+    fill: rgba(127, 220, 255, 0.75);
+}
+
+/*=== Stats ========*/
 
 .stats {
-    float: left;
-    width: 35vw;
-    height: 100vh;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 40vw;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 3px;
 }
 
-.unit:hover {
-
+.stats h1 {
+    font-size: 3rem;
 }
+
+.stats h1 span {
+    font-weight: 100;
+}
+
+.stats h1, .stats p {
+    margin-bottom: 1rem;
+}
+
+/*=== Misc =========*/
+
+footer {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    color: rgba(127, 220, 255, 0.5);
+}
+
+/*=== Responsive ===*/

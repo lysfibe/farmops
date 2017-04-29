@@ -8,7 +8,7 @@
 
     function initCountyListeners() {
         if ($( '.unit' ).length > 0) {
-            $( '.unit' ).click(function() {
+            $( '.unit' ).hover(function() {
                 var county = $( this ).children('title').text();
                 updateStatsPane(county);
             });
@@ -18,7 +18,6 @@
 
     function init() {
         loader = setInterval(initCountyListeners, 500);
-
         // use fetch to get loads of data and chuck it into the foodops object
     }
 
