@@ -1,0 +1,17 @@
+{
+  "name": "farmops",
+  "version": "1.0.0",
+  "description": "Farm optimisation operations",
+  "main": "server.js",
+  "authors": [
+    "Louis Capitanchik <contact@louiscap.co>",
+    "Bethany Griggs",
+    "Thomas Hewett",
+    "David Ralph"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.1.1"
+  }
+}
