@@ -24,5 +24,5 @@ app.use(api.routes())
 app.use(api.allowedMethods())
 
 app.listen(5000, function() {
-	console.log('FoodOps running on port 5000')
+	console.log('FoodOps running at http://localhost:5000')
 })
