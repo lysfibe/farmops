@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+                <meta charset="utf-8">
+        <title>FoodOps</title>
+        <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+
+     <link href="/d3-geomap/css/d3.geomap.css" rel="stylesheet">
+     <script src="/d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
+     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
+    </head>
+
+    <style>
+        .map {
+            float: left;
+        }
+        .stats {
+            float: left;
+        }
+        .stats__county {
+            float: left;
+        }
+    </style>
+
+    <body>
+        <body>
+            <div class="map" id="map" style="height: 100vh; width: 100vh"></div>
+            <div class="stats">
+                <span class="stats__county">SPNA</span>
+            </div>
+        </body>
+        <script>
+
+
+        var map = d3.geomap.choropleth()
+            .geofile('/d3-geomap/topojson/countries/GBR.json')
+            .width(1200)
+            .height(1200)
+            .scale(4500)
+            .translate([800, 4800]);
+            d3.select('#map').call(map.draw, map);
+        </script>
+    </body>
+</html>
