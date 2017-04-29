@@ -1,8 +1,14 @@
 const Koa = require('koa')
+
 const views = require('koa-views')
+const mount = require('koa-mount')
+const serve = require('koa-static')
+
 const { web, api } = require('./routes')
 
 const app = new Koa()
+
+app.use(serve(__dirname + '/public', {}))
 
 app.use(views(__dirname + '/views', {
 	map: {
