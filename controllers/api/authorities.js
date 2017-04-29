@@ -13,11 +13,41 @@ const EXAMPLE_DATA = {
 	},
 }
 
+const defaults = {
+	consumption: 0.2,
+	provision: 0.8,
+}
+
+function serialise({ population, farmland }, params = {}) {
+	const parameters = Object.assign({}, defaults, params)
+	const required = parameters.consumption * population
+	const deficit = required - farmland
+	const containers = deficit / parameters.provision
+
+	return {
+		population,
+		farmland,
+		required,
+		deficit,
+		containers,
+	}
+}
+
+const data = require('../../data/counties.json')
+
 /**
  * This function will eventually be provided by Dave's data stuff
  */
 async function getData(name = null) {
-	return name ? EXAMPLE_DATA[name] : EXAMPLE_DATA
+	if (name) {
+		const datum = data[name]
+		if (datum == null) return null
+		return serialise(datum)
+	} else {
+		return Object.entries(data)
+			.map(([key, value]) => [key, serialise(value)])
+			.reduce((acc, [key, value]) => Object.assign({}, acc, { [key]: value }), {})
+	}
 }
 
 exports.list = async ctx => {
