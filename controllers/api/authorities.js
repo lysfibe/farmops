@@ -18,13 +18,20 @@ const defaults = {
 	provision: 0.8,
 }
 
-const pluck = (obj, props) => props.map(prop => [prop, obj[prop]]).reduce((acc, [key, value]) => Object.assign(acc, { [key]: value }), {})
+const pluck = (obj, props) => props
+	.map(prop => [prop, obj[prop]])
+	.filter(([key, value]) => value != null)
+	.reduce((acc, [key, value]) => Object.assign(acc, { [key]: value }), {})
 
 function serialise({ population, farmland }, params = {}) {
 	const parameters = Object.assign({}, defaults, params)
-	const required = parameters.consumption * population
+
+	const consumption = Number(parameters.consumption)
+	const provision = Number(parameters.provision)
+
+	const required = consumption * population
 	const deficit = required - farmland
-	const containers = deficit / parameters.provision
+	const containers = Math.ceil(Math.max(deficit / provision, 1))
 
 	return {
 		population,
@@ -44,10 +51,10 @@ async function getData(name = null, opts = {}) {
 	if (name) {
 		const datum = data[name]
 		if (datum == null) return null
-		return serialise(datum)
+		return serialise(datum, opts)
 	} else {
 		return Object.entries(data)
-			.map(([key, value]) => [key, serialise(value)])
+			.map(([key, value]) => [key, serialise(value, opts)])
 			.reduce((acc, [key, value]) => Object.assign({}, acc, { [key]: value }), {})
 	}
 }
