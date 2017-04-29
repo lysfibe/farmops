@@ -1,5 +1,4 @@
-window.api = window.api || {}
-(function() {
+(function(exports) {
 	const qs = obj => {
 		let str = '?'
 		for (const key in obj) {
@@ -24,9 +23,11 @@ window.api = window.api || {}
 	*   }
 	* }
 	*/
-	api.authority = function getAuthorities(name, params) {
-		name = name || ''
-		return fetch('/api/authorities/' + name + qs(params))
-			.then(r => r.json())
+	exports.api = {
+		authority(name, params) {
+			name = name || ''
+			return fetch('/api/authorities/' + name + qs(params))
+				.then(r => r.json())
+		}
 	}
-}())
+}(window))
