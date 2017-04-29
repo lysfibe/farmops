@@ -10,26 +10,22 @@
     <script src="/d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link src="/css/site.css" rel="stylesheet">
+    <link href="/css/site.css" rel="stylesheet">
     <script src="/js/app.js"></script>
 </head>
 
 <body>
-
-    <body>
-        <div class="map" id="map" style="height: 100vh; width: 100vh"></div>
-        <div class="stats">
-            <span class="stats__county-name">SPNA</span>
-        </div>
-    </body>
+    <div class="map" id="map"></div>
+    <div class="stats">
+        <span class="stats__county-name"></span>
+    </div>
 
     <script>
         var map = d3.geomap.choropleth()
             .geofile('/d3-geomap/topojson/countries/GBR.json')
-            .width(1200)
             .height(1200)
             .scale(4500)
-            .translate([800, 4800]);
+            .translate([600, 4800]);
         d3.select('#map').call(map.draw, map);
     </script>
 </body>

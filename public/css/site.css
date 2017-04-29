@@ -1,7 +1,21 @@
+.map, .stats {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .map {
     float: left;
+    width: 60vw;
+    height: 100vh;
 }
 
 .stats {
     float: left;
+    width: 35vw;
+    height: 100vh;
+}
+
+.unit:hover {
+
 }
