@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Farm optimisation operations",
   "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
   "authors": [
     "Louis Capitanchik <contact@louiscap.co>",
     "Bethany Griggs",
@@ -13,5 +17,8 @@
   "dependencies": {
     "koa": "^2.2.0",
     "koa-router": "^7.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
   }
 }
