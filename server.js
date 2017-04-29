@@ -1,20 +1,19 @@
 const Koa = require('koa')
-const Router = require('koa-router')
+const views = require('koa-views')
+const { web, api } = require('./routes')
 
 const app = new Koa()
-const web = new Router()
-const api = new Router({ prefix: '/api' })
 
-const controller = (name, method) => require(`./controllers/${name}`)[method]
-
-web.get('/', (ctx) => {
-	ctx.response.body = 'Hello world'
-})
-
-api.get('/', controller('api/example', 'index'))
+app.use(views(__dirname + '/views', {
+	map: {
+		'hbs': 'handlebars',
+	},
+	extension: 'hbs',
+}))
 
 app.use(web.routes())
 app.use(web.allowedMethods())
+
 app.use(api.routes())
 app.use(api.allowedMethods())
 
