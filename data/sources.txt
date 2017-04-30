@@ -13,3 +13,6 @@ https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/popul
 
 UK local authorities by county
 https://geoportal.statistics.gov.uk/datasets/180a69233de94a8da3fb6a8a4959fcc7_0
+
+UK country level farmland
+https://data.gov.uk/dataset/june_survey_of_agriculture_and_horticulture_uk

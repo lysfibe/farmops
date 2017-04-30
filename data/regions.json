@@ -1,0 +1,50 @@
+{
+   "Eastern": {
+      "population": 6076451,
+      "farmland": 1382372
+   },
+   "East Midlands": {
+      "population": 4677038,
+      "farmland": 1187971
+   },
+   "London": {
+      "population": 8673713,
+      "farmland": 0
+   },
+   "North East": {
+      "population": 2624621,
+      "farmland": 593362
+   },
+   "North West": {
+      "population": 7173835,
+      "farmland": 902711
+   },
+   "South East": {
+      "population": 8947913,
+      "farmland": 1131395
+   },
+   "South West": {
+      "population": 5471180,
+      "farmland": 1776710
+   },
+   "West Midlands": {
+      "population": 5751000,
+      "farmland": 931105
+   },
+   "Yorkshire and The Humber": {
+      "population": 5390576,
+      "farmland": 1086200
+   },
+   "Northern Ireland": {
+      "population": 1851621,
+      "farmland": 1015000
+   },
+   "Scotland": {
+      "population": 5373000,
+      "farmland": 5538000
+   },
+   "Wales": {
+      "population": 3099086,
+      "farmland": 1725000
+   }
+}
