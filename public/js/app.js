@@ -21,9 +21,18 @@
                 $( '#requiredRow #required').html(parseInt(data.required));
 
                 if (data.deficit > 0) {
+                    $( '#deficitIcon' ).html('<i class="fa fa-plus" aria-hidden="true"></i>');
+                    $( '#deficitRow #deficit' ).html(Math.abs(parseInt(data.deficit)));
+                    $( '#deficitRow .stats__table-cell--data-text' ).html('hectares surplus');
+
                     $( '#shippingContainerRow' ).show();
                     $( '#containerCount' ).html(data.containers);
                 } else {
+                    $( '#deficitIcon' ).html('<i class="fa fa-minus" aria-hidden="true"></i>');
+
+                    $( '#deficitRow #deficit' ).html(Math.abs(parseInt(data.deficit)));
+                    $( '#deficitRow .stats__table-cell--data-text' ).html('hectares shortage');
+
                     $( '#shippingContainerRow' ).hide();
                 }
 
