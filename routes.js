@@ -11,8 +11,8 @@ web.get('/', async (ctx) => {
 
 // api.get('/', controller('api/example', 'index'))
 
-api.get('/authorities', controller('api/authorities', 'list'))
-api.get('/authorities/:name', controller('api/authorities', 'read'))
+api.get('/localities', controller('api/localities', 'list'))
+api.get('/localities/:name', controller('api/localities', 'read'))
 
 exports.web = web
 exports.api = api

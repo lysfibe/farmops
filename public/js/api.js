@@ -24,9 +24,9 @@
 	* }
 	*/
 	exports.api = {
-		authority(name, params) {
+		locality(name, params) {
 			name = name || ''
-			return fetch('/api/authorities/' + name + qs(params))
+			return fetch('/api/localities/' + name + qs(params))
 				.then(r => r.json())
 		}
 	}
