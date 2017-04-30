@@ -69,6 +69,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.stats__message-no-data {
+    color: rgba(127, 220, 255, 0.5);
+    display: none;
+}
+
 .stats__table {
     font-size: 1.5rem;
     font-weight: 100;
@@ -88,8 +93,22 @@ body {
     display: inline-block;
 }
 
+.shipping-containers__container {
+    height: 2rem;
+    display: inline-block;
+}
+.shipping-containers__data {
+    display: inline-block;
+}
 .shipping-containers__container object {
-    height: 26px;
+    height: 2rem;
+    vertical-align: middle;
+}
+.stats__table-footer {
+    border-top: 1px solid rgba(127, 220, 255, 1);
+    margin: 0 auto;
+    font-size: 2rem;
+    padding: 1rem 0;
 }
 
 /*=== Misc =========*/

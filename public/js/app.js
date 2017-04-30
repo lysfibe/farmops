@@ -15,18 +15,23 @@
             $( '.unit' ).click(function() {
               var county = $( this ).children('title').text();
               api.locality(county).then(function(data) {
+                  $( '.stats__message-no-data' ).hide();
                 $( '#populationRow #population' ).html(data.population);
                 $( '#farmlandRow #farmland' ).html(data.farmland);
                 $( '#requiredRow #required').html(parseInt(data.required));
 
                 if (data.deficit > 0) {
-                  $( '#shippingContainerRow' ).show();
-                  $( '#containerCount' ).html(data.containers);
+                    $( '#shippingContainerRow' ).show();
+                    $( '#containerCount' ).html(data.containers);
+                } else {
+                    $( '#shippingContainerRow' ).hide();
                 }
-                else {
-                  $( '#shippingContainerRow' ).hide();
-                }
-              });
+
+                $( '.stats__table' ).slideDown();
+            }).catch(function() {
+                $( '.stats__message-no-data' ).show();
+                $( '.stats__table' ).slideUp();
+            });
             });
             clearInterval(loader);
 
@@ -34,7 +39,6 @@
             $( '.unit' ).click(function() {
                 $( '.unit' ).removeClass('unit-active');
                 $( this ).addClass('unit-active');
-                $( '.stats__table' ).slideDown();
             });
         }
     }
@@ -57,8 +61,8 @@
         //     });
         // });
         // var demo = new CountUp("elementID", startVal, endVal, decimalplaces, duration);
-        var demo = new CountUp("personCount", 0, 3595, 0, 2.5);
-        demo.start();
+        // var demo = new CountUp("personCount", 0, 3595, 0, 2.5);
+        // demo.start();
     }
 
     init();

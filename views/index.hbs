@@ -23,6 +23,7 @@
         <h1><span>farm</span>ops</h1>
         <p>Foodops is an application that calculates the deficit in local food production and determines the number of microfarms that would be required for the locality to be self-sufficient.</p>
         <h2 class="stats__county-name">Select a county to begin...</h2>
+        <span class="stats__message-no-data">Currently no data available.</span>
 
         <div class="stats__table">
             <div class="stats__table-row" id="populationRow">
@@ -38,7 +39,7 @@
                     <i class="fa fa-globe" aria-hidden="true"></i>
                     <span id="farmland"></span>
                 </span>
-                <span class="stats__table-cell--data-text">hectacres</span>
+                <span class="stats__table-cell--data-text">hectares produced</span>
             </div>
 
             <div class="stats__table-row" id="requiredRow">
@@ -46,16 +47,16 @@
                     <i class="fa fa-cutlery" aria-hidden="true"></i>
                     <span id="required"></span>
                 </span>
-                <span class="stats__table-cell--data-text">hectacres</span>
+                <span class="stats__table-cell--data-text">hectares consumed</span>
             </div>
 
             <div class="stats__table-footer" id="shippingContainerRow">
                 <div class="shipping-containers__container">
-                    <object type="image/svg+xml" data="/images/container.svg">
+                    <object type="image/svg+xml" data="/images/container.svg"></object>
                 </div>
                 <div class="shipping-containers__data">
                     <span class="shipping-containers__data-count" id="containerCount"></span>
-                    <span class="shipping-containers__data-text">containers</span>
+                    <span class="shipping-containers__data-text">micro farms required</span>
                 </div>
             </div>
         </div>
