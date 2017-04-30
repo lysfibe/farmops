@@ -25,48 +25,38 @@
         <h2 class="stats__county-name">Select a county to begin...</h2>
 
         <div class="stats__table">
-            <div class="stats__table-row" id="personRow">
+            <div class="stats__table-row" id="populationRow">
                 <span class="stats__table-cell--data-count">
-                    <i class="fa fa-male" aria-hidden="true"></i>
-<<<<<<< HEAD
-                    <span id="personCount"></span>
-=======
-                    <span class="stats__table-cell-data-count"
->>>>>>> 7f9fac6... output data values
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <span id="population"></span>
                 </span>
-                <span class="stats__table-cell--data-text">person</span>
+                <span class="stats__table-cell--data-text">people</span>
             </div>
 
-<<<<<<< HEAD
+            <div class="stats__table-row" id="farmlandRow">
+                <span class="stats__table-cell--data-count">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <span id="farmland"></span>
+                </span>
+                <span class="stats__table-cell--data-text">hectacres</span>
+            </div>
+
+            <div class="stats__table-row" id="requiredRow">
+                <span class="stats__table-cell--data-count">
+                    <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    <span id="required"></span>
+                </span>
+                <span class="stats__table-cell--data-text">hectacres</span>
+            </div>
+
             <div class="stats__table-footer" id="shippingContainerRow">
                 <div class="shipping-containers__container">
                     <img class=""></img>
                 </div>
                 <div class="shipping-containers__data">
-                    <span class="shipping-containers__data-count">2500</span>
+                    <span class="shipping-containers__data-count" id="containerCount"></span>
                     <span class="shipping-containers__data-text">containers</span>
                 </div>
-=======
-            <div class="stats__table-row">
-                <span class="stats__table-cell-farmland">
-                    <i class="fa fa-male" aria-hidden="true"></i>
-                </span>
-                <span class="stats__table-cell--data-text">hectares</span>
-            </div>
-
-            <div class="stats__table-row">
-                <span class="stats__table-cell-deficit">
-                    <i class="fa fa-male" aria-hidden="true"></i>
-                </span>
-                <span class="stats__table-cell--data-text">hectares</span>
-            </div>
-
-            <div class="stats__table-row">
-                <span class="stats__table-cell-containers">
-                    <i class="fa fa-male" aria-hidden="true"></i>
-                </span>
-                <span class="stats__table-cell--data-text">containers</span>
->>>>>>> 7f9fac6... output data values
             </div>
         </div>
     </div>
@@ -81,9 +71,7 @@
             .translate([600, 4800]);
         d3.select('#map').call(map.draw, map);
     </script>
-    <!--  fa-male - people icon,
-          fa-cutlery -  consumption,
-          fa-pagelines - farms     -->
+
     <script src="/js/app.js"></script>
 </body>
 

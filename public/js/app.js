@@ -14,13 +14,17 @@
             });
             $( '.unit' ).click(function() {
               var county = $( this ).children('title').text();
-              api.authority(county).then(function(data) {
-                alert(JSON.stringify(data));
-                $( '.stats__table-cell--data-count').append(data.population);
-                $( '.stats__table-cell-farmland').append(data.farmland);
-                $( '.stats__table-cell-deficit').append(data.deficit);
+              api.locality(county).then(function(data) {
+                $( '#populationRow #population' ).html(data.population);
+                $( '#farmlandRow #farmland' ).html(data.farmland);
+                $( '#requiredRow #required').html(parseInt(data.required));
+
                 if (data.deficit > 0) {
-                  $( '.stats__table-cell-containers').html('<i class="fa fa-male" aria-hidden="true"></i>' + data.containers + 'containers');
+                  $( '#shippingContainerRow' ).show();
+                  $( '#containerCount' ).html(data.containers);
+                }
+                else {
+                  $( '#shippingContainerRow' ).hide();
                 }
               });
             });
