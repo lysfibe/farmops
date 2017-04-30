@@ -81,13 +81,22 @@ function matchStr(a, b) {
     return a1 === b1 || a1.includes(b1) || b1.includes(a1);
 }
 
+
 function matchableStr(str) {
+	String.prototype.replaceAll = function(target, replacement) {
+		return this.split(target).join(replacement);
+	};
     return str
         .toLowerCase()
-        .replace(".", "")
-        .replace("-", " ")
-        .replace(" and ", " ")
-        .replace(" & ", " ")
-        .replace(",", "")
-        .replace(" ", "");
+		.replaceAll("city of", "")
+        .replaceAll(".", "")
+		.replaceAll("[", "")
+		.replaceAll("]", "")
+		.replaceAll("(", "")
+		.replaceAll(")", "")
+        .replaceAll("-", " ")
+        .replaceAll(" and ", " ")
+        .replaceAll(" & ", " ")
+        .replaceAll(",", "")
+        .replaceAll(" ", "");
 }
