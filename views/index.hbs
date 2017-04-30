@@ -4,15 +4,15 @@
 <head>
     <meta charset="utf-8">
     <title>FarmOps</title>
-    <!-- d3 geo bits and bobs -->
+    <!-- d3 geo bits and other deps -->
     <link href="/d3-geomap/css/d3.geomap.css" rel="stylesheet">
     <script src="/d3-geomap/vendor/d3.geomap.dependencies.min.js"></script>
     <script src="/d3-geomap/js/d3.geomap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/js/countup.js"></script>
     <!-- farmops stuff -->
     <link href="/css/site.css" rel="stylesheet">
     <script src="/js/api.js"></script>
-    <script src="/js/app.js"></script>
     <script src="https://use.fontawesome.com/ddc88e3265.js"></script>
 </head>
 
@@ -27,7 +27,7 @@
             <div class="stats__table-row">
                 <span class="stats__table-cell--data-count">
                     <i class="fa fa-male" aria-hidden="true"></i>
-                    179
+                    <span id="personCount"></span>
                 </span>
                 <span class="stats__table-cell--data-text">person</span>
             </div>
@@ -47,6 +47,7 @@
     <!--  fa-male - people icon,
           fa-cutlery -  consumption,
           fa-pagelines - farms     -->
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
