@@ -1,26 +1,6 @@
 {
-    "Inner London": {
-        "population": 8760,
-        "farmland": 0
-    },
-    "Outer London": {
-        "population": 201979,
-        "farmland": 10215
-    },
-    "Greater Manchester": {
-        "population": 281619,
-        "farmland": 74504
-    },
-    "Merseyside": {
-        "population": 147231,
-        "farmland": 18882
-    },
-    "South Yorkshire": {
-        "population": 239319,
-        "farmland": 82612
-    },
     "Tyne and Wear": {
-        "population": 200996,
+        "population": 202494,
         "farmland": 15805
     },
     "West Midlands": {
@@ -31,109 +11,129 @@
         "population": 531176,
         "farmland": 96540
     },
-    "Buckinghamshire": {
-        "population": 188707,
-        "farmland": 105985
-    },
-    "Cambridgeshire": {
-        "population": 130907,
-        "farmland": 232260
-    },
-    "Cumbria": {
-        "population": 96660,
-        "farmland": 467271
-    },
-    "Derbyshire": {
-        "population": 124069,
-        "farmland": 184363
-    },
-    "Devon": {
-        "population": 138141,
-        "farmland": 440334
-    },
-    "Dorset": {
-        "population": 49057,
-        "farmland": 209062
-    },
-    "East Sussex": {
-        "population": 102465,
-        "farmland": 115148
-    },
-    "Essex": {
-        "population": 181721,
-        "farmland": 227704
-    },
-    "Gloucestershire": {
-        "population": 116781,
-        "farmland": 237572
-    },
-    "Hampshire": {
-        "population": 173856,
-        "farmland": 219551
-    },
-    "Hertfordshire": {
-        "population": 96217,
-        "farmland": 95198
-    },
-    "Kent": {
-        "population": 124250,
-        "farmland": 221742
-    },
     "Lancashire": {
         "population": 87371,
         "farmland": 210493
     },
-    "Leicestershire": {
-        "population": 96544,
-        "farmland": 159721
-    },
-    "Lincolnshire": {
-        "population": 66902,
-        "farmland": 416038
-    },
-    "Norfolk": {
-        "population": 135480,
-        "farmland": 299671
-    },
-    "Northamptonshire": {
-        "population": 66854,
-        "farmland": 181939
-    },
-    "North Yorkshire": {
-        "population": 55801,
-        "farmland": 619576
-    },
-    "Nottinghamshire": {
-        "population": 123574,
-        "farmland": 140989
+    "East Sussex": {
+        "population": 100693,
+        "farmland": 128443
     },
     "Oxfordshire": {
         "population": 145550,
         "farmland": 196897
     },
+    "Inner London": {
+        "population": 8760,
+        "farmland": 0
+    },
+    "Outer London": {
+        "population": 201979,
+        "farmland": 0
+    },
+    "Essex": {
+        "population": 181721,
+        "farmland": 237919
+    },
+    "Buckinghamshire": {
+        "population": 188707,
+        "farmland": 105985
+    },
     "Somerset": {
         "population": 111724,
         "farmland": 274720
+    },
+    "Cambridgeshire": {
+        "population": 130907,
+        "farmland": 232260
     },
     "Staffordshire": {
         "population": 98535,
         "farmland": 191328
     },
+    "Leicestershire": {
+        "population": 96544,
+        "farmland": 159721
+    },
+    "Cumbria": {
+        "population": 96660,
+        "farmland": 467271
+    },
+    "Gloucestershire": {
+        "population": 116781,
+        "farmland": 237572
+    },
     "Suffolk": {
         "population": 89215,
-        "farmland": 283701
+        "farmland": 237585
+    },
+    "Derbyshire": {
+        "population": 124069,
+        "farmland": 203361
+    },
+    "Lincolnshire": {
+        "population": 66902,
+        "farmland": 416038
+    },
+    "Hampshire": {
+        "population": 173856,
+        "farmland": 219551
+    },
+    "Norfolk": {
+        "population": 135480,
+        "farmland": 299671
     },
     "Surrey": {
         "population": 132670,
         "farmland": 66487
     },
+    "Devon": {
+        "population": 138141,
+        "farmland": 440334
+    },
+    "Hertfordshire": {
+        "population": 96217,
+        "farmland": 95198
+    },
+    "Northamptonshire": {
+        "population": 66854,
+        "farmland": 181939
+    },
+    "Greater Manchester": {
+        "population": 281619,
+        "farmland": 84362
+    },
+    "Dorset": {
+        "population": 49057,
+        "farmland": 209062
+    },
     "Warwickshire": {
         "population": 62787,
         "farmland": 152365
     },
+    "North Yorkshire": {
+        "population": 55801,
+        "farmland": 619576
+    },
+    "Kent": {
+        "population": 124250,
+        "farmland": 221742
+    },
     "West Sussex": {
         "population": 63429,
         "farmland": 115213
+    },
+    "Merseyside": {
+        "population": 147231,
+        "farmland": 18882
+    },
+    "Nottinghamshire": {
+        "population": 123574,
+        "farmland": 140989
+    },
+    "South Yorkshire": {
+        "population": 239319,
+        "farmland": 69317
     },
     "Worcestershire": {
         "population": 95768,

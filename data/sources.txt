@@ -1,0 +1,15 @@
+
+Freight farms - Stackable shipping container farms with 2 acre (0.8 hectare) marketable yield
+https://www.freightfarms.com/blog/data-from-our-growers-how-the-lgm-stacks-up
+
+Square roots - Shipping container farms with 2 acre (0.8 hectare) capacity
+https://squarerootsgrow.com/
+
+UK agricultural yields by regional authority
+https://www.gov.uk/government/statistical-data-sets/structure-of-the-agricultural-industry-in-england-and-the-uk-at-june#english-geographical-breakdowns
+
+UK population by county
+https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland
+
+UK local authorities by county
+https://geoportal.statistics.gov.uk/datasets/180a69233de94a8da3fb6a8a4959fcc7_0
