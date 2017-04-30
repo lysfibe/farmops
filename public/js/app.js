@@ -16,6 +16,8 @@
 
             /* Call this function in the callback after you have the data */
             $( '.unit' ).click(function() {
+                $( '.unit' ).removeClass('unit-active');
+                $( this ).addClass('unit-active');
                 $( '.stats__table' ).slideDown();
             });
         }
