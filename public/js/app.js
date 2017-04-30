@@ -43,6 +43,19 @@
         loader = setInterval(initCountyListeners, 500);
         // use fetch to get loads of data and chuck it into the foodops object
 
+        // work out the working counties
+        // api.locality().then(function(data) {
+        //     console.log(Object.keys(data));
+        //
+        //     $( '.unit' ).each(function() {
+        //         if ($( this ).children('title').text() in data) {
+        //             console.log($( this ).children('title').text());
+        //             api.locality($(this).children('title').text()).then(function(data) {
+        //                 console.log(data);
+        //             });
+        //         }
+        //     });
+        // });
         // var demo = new CountUp("elementID", startVal, endVal, decimalplaces, duration);
         var demo = new CountUp("personCount", 0, 3595, 0, 2.5);
         demo.start();
