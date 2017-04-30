@@ -19,6 +19,13 @@ app.use(views(__dirname + '/views', {
 	extension: 'hbs',
 }))
 
+app.use(async (ctx, next) => {
+	await next()
+	if (ctx.body == null) {
+		ctx.status = 404
+	}
+})
+
 app.use(web.routes())
 app.use(web.allowedMethods())
 
