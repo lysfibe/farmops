@@ -31,14 +31,14 @@ function serialise({ population, farmland }, params = {}) {
 
 	const required = consumption * population
 	const deficit = required - farmland
-	const containers = Math.ceil(Math.max(deficit / provision, 1))
+	const containers = deficit / provision
 
 	return {
 		population,
 		farmland,
 		required,
 		deficit,
-		containers,
+		containers: containers > 0 ? Math.ceil(containers) : Math.floor(containers),
 	}
 }
 
