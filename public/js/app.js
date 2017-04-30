@@ -13,13 +13,17 @@
                 updateStatsPane(county);
             });
             clearInterval(loader);
+
+            /* Call this function in the callback after you have the data */
+            $( '.unit' ).click(function() {
+                $( '.stats__table' ).slideDown();
+            });
         }
     }
 
     function init() {
         loader = setInterval(initCountyListeners, 500);
         // use fetch to get loads of data and chuck it into the foodops object
-
 
         // var demo = new CountUp("elementID", startVal, endVal, decimalplaces, duration);
         var demo = new CountUp("personCount", 0, 3595, 0, 2.5);

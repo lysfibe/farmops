@@ -66,6 +66,20 @@ body {
     margin-bottom: 1rem;
 }
 
+.stats__table {
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: none;
+}
+
+.stats__table-row {
+    margin: 0.5rem 0;
+}
+
+.stats__table-cell--data-count i {
+    padding-right: 0.5rem;
+}
+
 /*=== Misc =========*/
 
 footer {
