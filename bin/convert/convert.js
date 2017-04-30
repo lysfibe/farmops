@@ -10,13 +10,13 @@ let data = {};
 for (let i = 0; i < mapping.length; i++) {
     let item = mapping[i];
 
-    let authname = item.LAD15NM;
+    let authname = item.LAD16NM;
     if (!authname) continue;
 
-    let countyname = item.CTY15NM;
+    let countyname = item.CTY16NM;
     if (!countyname) continue;
 
-    let countycode = item.LAD15CD;
+    let countycode = item.LAD16CD;
     if (!countycode) continue;
 
     let countypop = getPop(countycode) || 0;
@@ -34,7 +34,7 @@ for (let i = 0; i < mapping.length; i++) {
     }
 }
 let json = JSON.stringify(data, null, 4);
-fs.writeFile('counties.json', json, 'utf8', function () {
+fs.writeFile('../../data/counties.json', json, 'utf8', function () {
     console.log("--------------- UNMATCHED AUTHORITIES ---------------");
     console.log(Object.keys(farm).length + " / " + farmFullLength);
     console.log(JSON.stringify(farm, null, 4));
