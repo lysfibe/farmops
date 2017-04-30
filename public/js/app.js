@@ -12,6 +12,22 @@
                 var county = $( this ).children('title').text();
                 updateStatsPane(county);
             });
+            $( '.unit' ).click(function() {
+              var county = $( this ).children('title').text();
+              api.locality(county).then(function(data) {
+                $( '#populationRow #population' ).html(data.population);
+                $( '#farmlandRow #farmland' ).html(data.farmland);
+                $( '#requiredRow #required').html(parseInt(data.required));
+
+                if (data.deficit > 0) {
+                  $( '#shippingContainerRow' ).show();
+                  $( '#containerCount' ).html(data.containers);
+                }
+                else {
+                  $( '#shippingContainerRow' ).hide();
+                }
+              });
+            });
             clearInterval(loader);
 
             /* Call this function in the callback after you have the data */
