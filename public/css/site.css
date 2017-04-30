@@ -83,6 +83,15 @@ body {
     padding-right: 0.5rem;
 }
 
+
+.shipping-containers__container {
+    display: inline-block;
+}
+
+.shipping-containers__container object {
+    height: 26px;
+}
+
 /*=== Misc =========*/
 
 footer {
