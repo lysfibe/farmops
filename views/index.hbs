@@ -75,10 +75,11 @@
 
     <script>
         var map = d3.geomap.choropleth()
-            .geofile('/d3-geomap/topojson/countries/GBR.json')
-            .height(860)
-            .scale(4500)
-            .translate([600, 4800]);
+                    .geofile('/d3-geomap/topojson/countries/GBR.json')
+                    .height(860)
+                    .scale(4500)
+                    .translate([600, 4800]);
+                    
         d3.select('#map').call(map.draw, map);
     </script>
 
