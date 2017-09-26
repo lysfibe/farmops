@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "dev": "nodemon server"
+    "dev": "nodemon server",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "authors": [
     "Louis Capitanchik <contact@louiscap.co>",
@@ -21,9 +23,11 @@
     "koa-mount": "^3.0.0",
     "koa-router": "^7.1.1",
     "koa-static": "^3.0.0",
-    "koa-views": "^6.0.2"
+    "koa-views": "^6.0.2",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
-  }
+  },
+  "snyk": true
 }
