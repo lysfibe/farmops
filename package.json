@@ -19,7 +19,7 @@
     "handlebars": "^4.0.6",
     "koa": "^2.2.0",
     "koa-mount": "^3.0.0",
-    "koa-router": "^7.1.1",
+    "koa-router": "^11.0.2",
     "koa-static": "^3.0.0",
     "koa-views": "^6.0.2"
   },
